@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Prueba de Serenity con ScreenPlay</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="50b9282e63a301672561479daa1ab94d33aa0cfe85d53ef443f6ce4a44d8fb88.html">Creacion De Cuenta</a></span>
+                > <span class="truncate-60"><a
+                    href="e67d8130afbc8f8cfa26b47a2b507cad382aba10e2dcf9fb4be36854bd7a0075.html"> </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-12-2019 16:36</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Creacion De Cuenta </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                yo quiero realizar la correcta creacion de mi usuario en el sistema
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="5f0b4637937037bceae9190ad69355e69e8b72d1e756ee39b6ffcc906ccee491.html">Registrookhombre
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given yo quiero crear mi cuenta<br>When yo ingrese mis datos y seleccione crear cuenta<br>Then yo deberia quedar con una cuenta creada</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="729b6aeba357703d8bcc10b86c056b878efabf212e7e039159954921a0740786.png" title="Given yo quiero crear mi cuenta" width="1366"/>
+                <img src="729b6aeba357703d8bcc10b86c056b878efabf212e7e039159954921a0740786.png" title="User opens the Registro page" width="1366"/>
+                <img src="729b6aeba357703d8bcc10b86c056b878efabf212e7e039159954921a0740786.png" title="When yo ingrese mis datos y seleccione crear cuenta
+| Juan | Perez | Juan@correo.com | holamundo | 2000-07-16 | masculino |" width="1366"/>
+                <img src="729b6aeba357703d8bcc10b86c056b878efabf212e7e039159954921a0740786.png" title="User enters 'Juan' into Nombre" width="1366"/>
+                <img src="f55d478f225b8638a634faf720acd4155b106fbd26d661e7b8b814aa949f2696.png" title="User enters 'Juan' into Nombre" width="1366"/>
+                <img src="35c4dc106ed94487cf5f44b2a47bb6dfcceb37527f74624154cd4e35fc37292b.png" title="User enters 'Perez' into Apellido" width="1366"/>
+                <img src="cbf52360a87aff0499837ac4d7767deabbb377a919ccc4847976e703dfb4bae9.png" title="User enters 'Perez' into Apellido" width="1366"/>
+                <img src="cbf52360a87aff0499837ac4d7767deabbb377a919ccc4847976e703dfb4bae9.png" title="User enters 'Juan@correo.com' into Correo Electronico" width="1366"/>
+                <img src="0197caf14219b25412570731fb5672c7a02c553258f56e24af231cadb4ed562e.png" title="User enters 'Juan@correo.com' into Correo Electronico" width="1366"/>
+                <img src="30de706c98448437a2e072f1cd12ca7e896b7c6c50145bf2b28ef1659620d26f.png" title="User enters 'holamundo' into Contrase&ntilde;a" width="1366"/>
+                <img src="a3b8d12adcdcc2830012482442fd9e613e872f35a7bed3c798e09e7e6b0ef3b2.png" title="User enters 'holamundo' into Contrase&ntilde;a" width="1366"/>
+                <img src="a3b8d12adcdcc2830012482442fd9e613e872f35a7bed3c798e09e7e6b0ef3b2.png" title="User enters '2000-07-16' into Fecha Nacimiento" width="1366"/>
+                <img src="dce832d00717570ba60568e97fa4a62d21bd23d15ff09b7ba93ca54d327b9e85.png" title="User enters '2000-07-16' into Fecha Nacimiento" width="1366"/>
+                <img src="99e111efe56f4405c218eb4086631f07a4dc4e194b68e5f51131a0fcb967d9d0.png" title="User clicks on Sexo Masculino" width="1366"/>
+                <img src="ffb3782b156ba87fb64e83a85dfd677c7d87d8c2d9758a209b8cc9b39839e53a.png" title="User clicks on Sexo Masculino" width="1366"/>
+                <img src="ffb3782b156ba87fb64e83a85dfd677c7d87d8c2d9758a209b8cc9b39839e53a.png" title="User clicks on Boton de crear: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" ng-app="pruebaQaApp" class="ng-scope"><head><style type="text/css">[uib-typeahead-popup].dropdown-menu{display:block;}</style><style type="text/css">.uib-time input{width:50px;}</style><style type="text/css">[uib-tooltip-popup].tooltip.top-left &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom &gt; .tooltip-arrow,[uib-popover-popup].popover.top-left &gt; .arrow,[uib-popover-popup].popover.top-right &gt; .arrow,[uib-popover-popup].popover.bottom-left &gt; .arrow,[uib-popover-popup].popover.bottom-right &gt; .arrow,[uib-popover-popup].popover.left-top &gt; .arrow,[uib-popover-popup].popover.left-bottom &gt; .arrow,[uib-popover-popup].popover.right-top &gt; .arrow,[uib-popover-popup].popover.right-bottom &gt; .arrow,[uib-popover-html-popup].popover.top-left &gt; .arrow,[uib-popover-html-popup].popover.top-right &gt; .arrow,[uib-popover-html-popup].popover.bottom-left &gt; .arrow,[uib-popover-html-popup].popover.bottom-right &gt; .arrow,[uib-popover-html-popup].popover.left-top &gt; .arrow,[uib-popover-html-popup].popover.left-bottom &gt; .arrow,[uib-popover-html-popup].popover.right-top &gt; .arrow,[uib-popover-html-popup].popover.right-bottom &gt; .arrow,[uib-popover-template-popup].popover.top-left &gt; .arrow,[uib-popover-template-popup].popover.top-right &gt; .arrow,[uib-popover-template-popup].popover.bottom-left &gt; .arrow,[uib-popover-template-popup].popover.bottom-right &gt; .arrow,[uib-popover-template-popup].popover.left-top &gt; .arrow,[uib-popover-template-popup].popover.left-bottom &gt; .arrow,[uib-popover-template-popup].popover.right-top &gt; .arrow,[uib-popover-template-popup].popover.right-bottom &gt; .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}</style><style type="text/css">.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}</style><style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}</style><style type="text/css">.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}</style><style type="text/css">.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8" />
+    <title>pruebaQaApp</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../bower_components/angular-toastr/dist/angular-toastr.css" />
+    <link rel="stylesheet" href="../bower_components/animate.css/animate.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp/serve,src}) styles/app.css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="app/index.css" />
+    <!-- endinject -->
+    <!-- endbuild -->
+  </head>
+  <body><script type="text/javascript" id="__bs_script__">//&lt;![CDATA[
+    document.write("&lt;script async src='/browser-sync/browser-sync-client.2.9.12.js'&gt;&lt;\/script&gt;".replace("HOST", location.hostname));
+//]]&gt;</script><script async="" src="/browser-sync/browser-sync-client.2.9.12.js"></script>
+
+    <!-- ngView: --><div ng-view="" class="ng-scope"><div class="container ng-scope">
+  <form name="myForm" class="formulario ng-pristine ng-invalid ng-invalid-required ng-valid-email ng-invalid-date" ng-submit="main.submit(myForm.$valid)" novalidate="novalidate">
+    <h1>Crear cuenta</h1>
+    <div class="form-group">
+      <label>Nombre*:</label>
+      <input name="firstname" ng-class="{'error': !myForm.firstname.$valid &amp;&amp; (myForm.firstname.$touched || myForm.$submitted)}" class="form-control ng-pristine ng-empty ng-invalid ng-invalid-required ng-touched error" id="id_nombre" type="text" ng-model="main.user.name" required="true" />
+      <span class="error" ng-show="myForm.firstname.$error.required &amp;&amp; (myForm.firstname.$touched || myForm.$submitted )">
+        El nombre es obligatorio
+      </span>
+    </div>
+    <div class="form-group">
+      <label>Apellido*:</label>
+      <input name="lastname" ng-class="{'error': !myForm.lastname.$valid &amp;&amp; (myForm.lastname.$touched || myForm.$submitted)}" class="form-control ng-pristine ng-empty ng-invalid ng-invalid-required ng-touched error" id="id_apellido" type="text" ng-model="main.user.lastName" required="true" />
+      <span class="error" ng-show="myForm.lastname.$error.required &amp;&amp; (myForm.lastname.$touched || myForm.$submitted )">
+        El apellido es obligatorio
+      </span>
+    </div>
+    <div class="form-group">
+      <label>Correo electrónico*:</label>
+      <input name="email" ng-class="{'error': !myForm.email.$valid &amp;&amp; (myForm.email.$touched || myForm.$submitted)}" class="form-control ng-pristine ng-empty ng-valid-email ng-invalid ng-invalid-required ng-touched error" id="id_email" type="email" ng-model="main.user.email" required="true" />
+      <span class="error" ng-show="myForm.email.$error.required &amp;&amp; (myForm.email.$touched || myForm.$submitted )">
+        El correo electrónico es obligatorio
+      </span>
+      <span class="error ng-hide" ng-show="myForm.email.$error.email &amp;&amp; (myForm.email.$touched || myForm.$submitted )">
+        El correo electrónico no es válido
+      </span>
+    </div>
+    <div class="form-group">
+      <label>Contraseña nueva*:</label>
+      <input name="password" ng-class="{'error': !myForm.password.$valid &amp;&amp; (myForm.password.$touched || myForm.$submitted)}" class="form-control ng-pristine ng-empty ng-invalid ng-invalid-required ng-touched error" id="id_password" type="password" ng-model="main.user.password" required="true" />
+      <span class="error" ng-show="myForm.password.$error.required &amp;&amp; (myForm.password.$touched || myForm.$submitted )">
+        La constraseña es obligatoria
+      </span>
+    </div>
+    <div class="form-group">
+      <label>Fecha de nacimiento*:</label>
+      <p class="input-group">
+        <input name="birthdate" ng-class="{'error': !myForm.birthdate.$valid &amp;&amp; (myForm.birthdate.$touched || myForm.$submitted)}" type="text" uib-datepicker-popup="" is-open="main.opened" ng-model="main.user.birthDate" required="true" class="form-control ng-pristine ng-isolate-scope ng-empty ng-invalid ng-invalid-date ng-invalid-required ng-touched error" /><div uib-datepicker-popup-wrap="" ng-model="date" ng-change="dateSelection(date)" template-url="uib/template/datepickerPopup/popup.html" class="ng-not-empty ng-valid">
+  <!-- ngIf: isOpen -->
+</div>
+        <span class="input-group-btn">
+          <button type="button" class="btn btn-default" ng-click="main.open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+        </span>
+      </p>
+      <span class="error" ng-show="myForm.birthdate.$error.required &amp;&amp; (myForm.birthdate.$touched || myForm.$submitted )">
+        La fecha de nacimiento es obligatoria
+      </span>
+    </div>
+    <div class="form-group">
+      <div class="radio">
+        <label><input name="woman" id="id_genero_mujer" value="F" type="radio" ng-model="main.user.gender" required="true" class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" />
+          Mujer</label>
+      </div>
+      <div class="radio">
+        <label><input name="man" id="id_genero_hombre" value="M" type="radio" ng-model="main.user.gender" required="true" class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" />
+          Hombre</label>
+      </div>
+      <span class="error ng-hide" ng-show="myForm.woman.$error.required &amp;&amp; myForm.man.$error.required  &amp;&amp; myForm.$submitted">
+        El género es obligatorio
+      </span>
+    </div>
+    <div class="form-group">
+      <p>Al hacer clic en "Crear cuenta", aceptas las <a href="">Condiciones</a> y confirmas que leíste nuestra <a href="">Política de datos</a>, incluido el <a href="">uso de cookies</a>
+      </p>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-default">Crear cuenta</button>
+    </div>
+  </form>
+</div>
+</div>
+    <!-- build:js(src) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-touch/angular-touch.js"></script>
+    <script src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="../bower_components/angular-messages/angular-messages.js"></script>
+    <script src="../bower_components/angular-route/angular-route.js"></script>
+    <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="../bower_components/malarkey/dist/malarkey.min.js"></script>
+    <script src="../bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+    <script src="../bower_components/moment/moment.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+    <!-- inject:js -->
+    <script src="app/index.module.js"></script>
+    <script src="app/main/main.controller.js"></script>
+    <script src="app/index.run.js"></script>
+    <script src="app/index.route.js"></script>
+    <script src="app/index.config.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:partials -->
+    <!-- angular templates will be automatically converted in js and inserted here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+  
+
+</body></html>
